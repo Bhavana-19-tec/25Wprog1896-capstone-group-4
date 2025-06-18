@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Purchase Confirmation - IKART</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Ikart.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <img src="IKART.png" alt="IKART Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Product.html">Product</a></li>
+        <li><a href="Purchase confirmation.html">Purchase Confirmation</a></li>
+        <li><a href="Cart.html">🛒</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Confirmation Section -->
+  <section class="confirmation-container">
+    <div class="left-image">
+      <img src="download (4).jpg" alt="Bandage Product">
+    </div>
+
+    <div class="confirmation-details">
+      <h2>Purchase Confirmation</h2>
+      <p><strong>$50</strong></p>
+      <p>Product: Surface Elastic Bandage – (5M × 12.5CM)</p>
+      <p>Location: Toronto, ON - M3C 0C1</p>
+      <p>Order Number: 100987654</p>
+      <p>Delivery: Expected Jun 1 – Jun 5</p>
+      <button class="confirm-button">Confirm</button>
+    </div>
+  </section>
+
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Thank you for your order!</h1>
+    <p>Your food will be delivered soon. Below is the delivery location:</p>
+
+    <!-- Map Container -->
+    <div id="map"></div>
+  </div>
+
+  <!-- Reviews Section -->
+  <section class="reviews">
+    <h3>Latest reviews</h3>
+    <div class="review-boxes">
+      <div class="review-card">
+        <p><strong>Review title</strong></p>
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>Reviewer name</p>
+      </div>
+      <div class="review-card">
+        <p><strong>Review title</strong></p>
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>Reviewer name</p>
+      </div>
+      <div class="review-card">
+        <p><strong>Review title</strong></p>
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>Reviewer name</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 InstantKart. All rights reserved.</p>
+    <div class="social">
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+
+</body>
+</html>
